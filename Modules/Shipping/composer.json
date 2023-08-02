@@ -1,0 +1,33 @@
+{
+    "name": "axtersw/shipping-module",
+    "description": "",
+    "authors": [
+        {
+            "name": "Joaquin Sanchez",
+            "email": "joaquin.sanchez@axtersoftware.com"
+        },
+        {
+            "name": "German Hofer",
+            "email": "german.hofer@axtersoftware.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Shipping\\Providers\\ShippingServiceProvider"
+            ],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Shipping\\": ""
+        }
+    },
+    "require": {
+        "andreani/sdk-php": "dev-master",
+        "guzzlehttp/guzzle": "^6.5"
+    }
+}

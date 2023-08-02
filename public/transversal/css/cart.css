@@ -1,0 +1,88 @@
+.itemside {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+}
+
+.itemside .aside {
+    position: relative;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+}
+
+.itemside .info {
+    padding-left: 15px;
+    padding-right: 7px;
+    min-width: 150px;
+}
+
+.itemside .title {
+    display: block;
+    margin-bottom: 5px;
+    color: #212529;
+}
+
+.itemside p {
+    margin-bottom: 0;
+}
+
+.table-shopping-cart.table td, .table-shopping-cart.table th {
+    /*padding-left: 1.25rem;
+    padding-right: 1.25rem;*/
+}
+
+.cart-tr .card{
+		padding: 0px;
+}
+
+.cart-tr .card{
+  padding: 0px;
+}
+
+.cart-tr .dlist-align {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 0px;
+}
+
+.cart-tr .dlist-align dt {
+    width: 120px;
+    word-wrap: break-word;
+    font-weight: normal;
+}
+
+.cart-tr .dlist-align dd {
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+}
+
+.cart-tr .form-control{
+    border-radius: 5px;
+}
+
+.cart-tr select{
+	min-width: 70px;
+}
+
+.itemside .aside{
+        height: 80px;
+    width: 80px;
+    display: inline-block;
+    float: left;
+    margin-right: 10px;
+}
+
+.itemside .aside img{
+    object-fit: cover;
+  width: 100% !important;
+  height: 100% !important;
+  object-position: center;
+}
+
+.mwi-80{
+    min-width: 80px;
+}

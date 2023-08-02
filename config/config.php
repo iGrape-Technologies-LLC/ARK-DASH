@@ -1,0 +1,37 @@
+<?php
+
+return [
+    'APP_NAME' =>  env('APP_NAME', 'Ecommerce'),
+    'APP_TITLE' =>  env('APP_TITLE', 'Ecommerce'),
+
+    'DATE_FORMAT' =>  env('DATE_FORMAT', 'DD/MM/YYYY'),
+
+
+    'IS_ECOMMERCE' => env('IS_ECOMMERCE', true),
+    'SHOW_PRICING' => env('SHOW_PRICING', true),
+    'MANAGE_STOCK' => env('MANAGE_STOCK', true),
+    'ADMIN_TERMS_ACCEPT' => env('ADMIN_TERMS_ACCEPT', false),
+    'PHOTO_REQUIRED' => env('PHOTO_REQUIRED', false),
+    'SHOW_ATRIBUTES_WITHOUT_ARTICLES' => env('SHOW_ATRIBUTES_WITHOUT_ARTICLES', false),
+    'ADD_CART_THEN_REDIRECT_CHECKOUT' => env('ADD_CART_THEN_REDIRECT_CHECKOUT', false),
+    'SHIPPING_REQUIRED' => env('SHIPPING_REQUIRED', 'true'),
+
+    'ALLOW_PASSWORD_REQUEST' => env('ALLOW_PASSWORD_REQUEST', true),
+    'EMAIL_VERIFICATION' => env('EMAIL_VERIFICATION', false),
+
+    'EXPRESS_CHECKOUT' => env('EXPRESS_CHECKOUT', false),
+
+    'METEORED_CITY_ID' => env('METEORED_CITY_ID'),
+    'METEORED_AFFILIATE_ID' => env('EXPRESS_CHECKOUT'),
+
+    'HAS_APP' => env('HAS_APP', false),
+
+    'ANALYTICS_PROPERTY_ID' => env('ANALYTICS_PROPERTY_ID'),
+    'APP_ANALYTICS' => env('APP_ANALYTICS'),
+    'ANALYTICS_VIEW_ID' => env('ANALYTICS_VIEW_ID'),
+
+    'DNERO_ENDPOINT' => env('DNERO_ENDPOINT'),
+    'DNERO_PHONE' => env('DNERO_PHONE'),
+    'DNERO_LAT' => env('DNERO_LAT'),
+    'DNERO_LNG' => env('DNERO_LNG')
+];

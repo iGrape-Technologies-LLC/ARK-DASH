@@ -1,0 +1,13 @@
+{
+    "name": "Checkout",
+    "alias": "checkout",
+    "description": "",
+    "keywords": [],
+    "order": 0,
+    "providers": [
+        "Modules\\Checkout\\Providers\\CheckoutServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

@@ -1,0 +1,35 @@
+{
+    "name": "axtersw/checkout-module",
+    "description": "",
+    "authors": [
+        {
+            "name": "Joaquin Sanchez",
+            "email": "joaquin.sanchez@axtersoftware.com"
+        },
+        {
+            "name": "German Hofer",
+            "email": "german.hofer@axtersoftware.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Checkout\\Providers\\CheckoutServiceProvider"
+            ],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Checkout\\": ""
+        }
+    },
+    "require": {
+        "mercadopago/dx-php": "2.0.0",
+        "decidir2/php-sdk": "^1.5",
+        "guzzlehttp/guzzle": "^6.5",
+        "picqer/php-barcode-generator": "^2.0"
+    }
+}

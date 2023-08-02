@@ -1,0 +1,111 @@
+.perfil .tab-content{
+    /*background: #fafafa;*/
+    border: 1px solid #e5e4e4;
+    border-radius: 3px;
+    margin-top: 20px;
+}
+
+.nav-tabs{
+    border: none;
+}
+
+/*.perfil .nav-tabs .nav-link.active{
+    background: #fafafa;
+}*/
+
+
+.perfil #tabs .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    background-color: transparent;
+    border-color: transparent transparent #f3f3f3;
+    border-bottom: 3px solid !important;
+    font-size: 16px;
+    font-weight: bold;
+}
+.perfil .nav-link {
+    border: none;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;    
+    font-size: 16px;
+    font-weight: 600;
+    color: #495057;
+}
+.perfil .nav-link:hover {
+    border: none;
+}
+
+.perfil .tab-perfil{
+    padding: 30px;
+}
+
+.perfil .form-control{
+    border-radius: 5px;
+}
+
+.addresses-tr .card{
+    padding: 0px;
+    background: #ffffff;
+}
+
+.addresses-tr .card-header{
+    background-color: rgba(0,0,0,.02);
+}
+
+.span-addresses-tr{
+    font-weight: bold;
+}
+
+.shiping-addresses-tr{
+    overflow-x: scroll;
+}
+
+.shiping-addresses-tr::-webkit-scrollbar-track
+{
+    /*-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);*/
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+
+.shiping-addresses-tr::-webkit-scrollbar
+{
+    width: 12px;
+    background-color: #ffffff;
+}
+
+.shiping-addresses-tr::-webkit-scrollbar-thumb
+{
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 1px rgba(0,0,0,.3);
+    background-color: #f4f4f4;
+}
+
+.col-special-ship-address{
+    min-width: 200px;
+    float: left;
+    margin-right: 20px;
+}
+
+.intermediate-width-full{
+    display: flex;
+}
+
+
+.parsley-errors-list{
+    color: #ff2b2b;
+    margin-top: 3px;
+}
+
+.btn-approved{
+    color: #28a745;
+    border-color: #28a745;
+}
+
+.btn-pending{
+    color: #ffc107;
+    border-color: #ffc107;
+}
+
+.btn-cancelled{
+    color: #dc3545;
+    border-color: #dc3545;
+}
+
